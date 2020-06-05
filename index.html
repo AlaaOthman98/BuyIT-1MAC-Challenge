@@ -4,18 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buy IT!</title>
-    
+
     <!--Google Fonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Raleway|ABeeZee"
       rel="stylesheet"
     />
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="style/style.css"
-    />
+    <link rel="stylesheet/less" type="text/css" href="style/style.less" />
   </head>
   <body>
     <!--Header Section-->
@@ -296,9 +292,9 @@
     <!--Add to Cart Section-->
     <section id="add-to-cart">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <button class="button-base-style green-button">Add to cart</button>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
+      <button class="button-base-style green-button">Add to cart</button>
     </section>
 
     <!--Footer-->
@@ -310,7 +306,7 @@
     <script>
       let date = new Date();
       let year = date.getFullYear();
-      document.querySelector('#footer').textContent += year;
+      document.querySelector("#footer").textContent += year;
     </script>
 
     <!--Font Awesome-->
@@ -318,5 +314,9 @@
       src="https://kit.fontawesome.com/9eb6fa9314.js"
       crossorigin="anonymous"
     ></script>
+
+    <!--Less CSS-Preprocessor-->
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js"></script>
   </body>
 </html>
